@@ -1,0 +1,96 @@
+// Main Sass File
+
+
+
+$primary:#3292a6;
+$primary-overlay:rgba(50,146,156,0.5);
+body{margin-top: 90px;}
+.home-area { position: relative;
+   min-height: 700px;
+   h1{font-size: 6rem;
+   font-weight: 300;
+ line-height: 1.2;}
+  background-image: url("../images/mountains.jpg"); }
+  .home-area .home-overlay {
+    background: rgba(50, 125, 145, 0.5);
+    min-height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    }
+
+.navbar { overflow: hidden;
+  background: linear-gradient(#0F2027,#203A43,#2C5364);
+  opacity: 0.8;
+  box-shadow: 2px 2px 5px #3292a6;
+  .nav-item {
+    font-size: 1rem;}
+  .nav-item:hover{
+  background-color:#3C616F;
+  border-radius: 1px;
+  }
+}
+
+
+  .subscribe{padding: 19px;
+  border-radius: 0;}
+    .inner-form{background: #38454c;
+    .form-control{padding: 30px; border-radius: 0}
+  }
+  .card{
+    border-radius: 0;
+  }
+
+  #author {
+
+    img{margin-top: -60px;}
+    .fa{padding: 20px;
+    font-size: 25px;}
+.card:hover{
+  background-color: $primary;
+  color:white;
+  transition: all 1s;
+  .fa{
+    color: #ffff;
+  }
+}
+
+
+}
+.touch{
+  .contact-form{
+    .form-group{
+      .input-group{
+        .form-control{border-radius: 0;}
+        .input-group-prepend{
+          .fa{border-radius: 0;}
+
+        }
+      }
+    }
+  }
+  input.btn.btn-primary.btn-lg.btn-block {
+    border-radius: 0;
+}
+#sidebar-img{width:350px;
+  height: 360px;
+img{
+  height: 100%;
+margin-top: 20px;
+}}
+}
+@media(max-width:1199px){
+  #sidebar-img{
+    margin-top: 30px;
+  }
+}
+@media(max-width:767px){
+  #myform{}
+  .mystyle2{
+width: 100%;
+    min-height:500px;
+  #sidebar-img{margin: 0 auto;
+    img{width: 100%; margin-top: 10px;}
+  h1{text-alig
